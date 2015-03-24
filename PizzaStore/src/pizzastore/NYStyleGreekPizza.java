@@ -12,6 +12,16 @@ package pizzastore;
 class NYStyleGreekPizza extends Pizza {
 
     public NYStyleGreekPizza() {
+        name = "NewYork Style Greek Pizza";
+        dough = "Thin Crust Dough";
+        sauce = "Olive Tomato Sauce";
+        
+        toppings.add("Shredded Feta Cheese");
+	toppings.add("Black Olives");
+	toppings.add("Spinach");
+	toppings.add("Eggplant");
+	toppings.add("Sliced Pepperoni");
+	
     }
     
 }

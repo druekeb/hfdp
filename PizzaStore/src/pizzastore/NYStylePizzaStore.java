@@ -10,10 +10,9 @@ package pizzastore;
  * @author barbara
  */
 public  class NYStylePizzaStore extends PizzaStore{
-    SimplePizzaFactory factory;
+    
 
-    public NYStylePizzaStore(SimplePizzaFactory factory) {
-        super(factory);
+    public NYStylePizzaStore() {
     }
 
    

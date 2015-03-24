@@ -9,20 +9,19 @@ package pizzastore;
  *
  * @author barbara
  */
-public class ChicagoStyleVeggiePizza extends Pizza {
-	public ChicagoStyleVeggiePizza() {
-		name = "Chicago Deep Dish Veggie Pizza";
-		dough = "Extra Thick Crust Dough";
-		sauce = "Plum Tomato Sauce";
+public class CaliforniaStyleVeggiePizza extends Pizza {
+	public CaliforniaStyleVeggiePizza() {
+		name = "California Style Veggie Pizza";
+		dough = "Medium Thick Dough";
+		sauce = "Plum Berry Sauce";
  
-		toppings.add("Shredded Mozzarella Cheese");
+		toppings.add("Buffalo Mozzarella Cheese");
 		toppings.add("Black Olives");
 		toppings.add("Spinach");
 		toppings.add("Eggplant");
 	}
  
 	void cut() {
-		System.out.println("Cutting the pizza into square slices");
+		System.out.println("Don't cut the pizza into slices");
 	}
 }
-

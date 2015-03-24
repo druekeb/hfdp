@@ -9,7 +9,7 @@ package pizzastore;
  *
  * @author barbara
  */
-public  class ChicagoStylePizzaStore extends PizzaStore {
+public  class CaliforniaStylePizzaStore extends PizzaStore {
 
       
     public  Pizza createPizza(String type){
@@ -17,19 +17,19 @@ public  class ChicagoStylePizzaStore extends PizzaStore {
         Pizza pizza = null;
         switch(type){
              case "cheese":
-                pizza = new ChicagoStyleCheesePizza();
+                pizza = new CaliforniaStyleCheesePizza();
                 break;
             case "pepperoni":
-                pizza = new ChicagoStylePepperoniPizza();
+                pizza = new CaliforniaStylePepperoniPizza();
                 break;
             case "greek" :
-                pizza = new ChicagoStyleGreekPizza();
+                pizza = new CaliforniaStyleGreekPizza();
                 break;
             case "clam":
-                pizza = new ChicagoStyleClamPizza();
+                pizza = new CaliforniaStyleClamPizza();
                 break;
             case "veggie": 
-                pizza = new ChicagoStyleVeggiePizza();
+                pizza = new CaliforniaStyleVeggiePizza();
         }
         return pizza;
     }

@@ -10,12 +10,8 @@ package pizzastore;
  * @author barbara
  */
 public abstract class PizzaStore {
-    SimplePizzaFactory factory;
     
-    public PizzaStore(SimplePizzaFactory factory){
-        this.factory = factory;
-    }
-    
+       
     public final Pizza order(String type){
         Pizza pizza;
         pizza = createPizza(type);

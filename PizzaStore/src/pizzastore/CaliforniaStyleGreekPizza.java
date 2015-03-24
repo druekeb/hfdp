@@ -9,11 +9,11 @@ package pizzastore;
  *
  * @author barbara
  */
-class ChicagoStyleGreekPizza extends Pizza {
+class CaliforniaStyleGreekPizza extends Pizza {
 
-    public ChicagoStyleGreekPizza() {
-    	name = "Chicago Style Greek Pizza";
-	dough = "Extra Thick Crust Dough";
+    public CaliforniaStyleGreekPizza() {
+    	name = "California Style Greek Pizza";
+	dough = "Medium Thick  Dough";
 	sauce = "Olive Tomato Sauce";
  
         toppings.add("Shredded Feta Cheese");
@@ -24,7 +24,7 @@ class ChicagoStyleGreekPizza extends Pizza {
 	}
  
 	void cut() {
-		System.out.println("Cutting the pizza into square slices");
+		System.out.println("Dont't cut the Pizza");
 	}
 
 }

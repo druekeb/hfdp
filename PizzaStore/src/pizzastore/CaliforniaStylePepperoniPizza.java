@@ -9,13 +9,13 @@ package pizzastore;
  *
  * @author barbara
  */
-public class ChicagoStylePepperoniPizza extends Pizza {
-	public ChicagoStylePepperoniPizza() {
-		name = "Chicago Style Pepperoni Pizza";
-		dough = "Extra Thick Crust Dough";
-		sauce = "Plum Tomato Sauce";
+public class CaliforniaStylePepperoniPizza extends Pizza {
+	public CaliforniaStylePepperoniPizza() {
+		name = "California Style Pepperoni Pizza";
+		dough = "Medium Thick Dough";
+		sauce = "Plum Berry Sauce";
  
-		toppings.add("Shredded Mozzarella Cheese");
+		toppings.add("Buffalo Mozzarella Cheese");
 		toppings.add("Black Olives");
 		toppings.add("Spinach");
 		toppings.add("Eggplant");
@@ -23,7 +23,7 @@ public class ChicagoStylePepperoniPizza extends Pizza {
 	}
  
 	void cut() {
-		System.out.println("Cutting the pizza into square slices");
+		System.out.println("Don't cut the pizza into slices!");
 	}
 }
 
